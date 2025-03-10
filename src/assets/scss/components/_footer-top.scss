@@ -1,0 +1,88 @@
+.all {
+  &__footer-general {
+    max-width: 100%;
+    height: 100%;
+  }
+
+  &__footer-good {
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  &__ons {
+    display: flex;
+    flex-direction: column;
+
+    :hover {
+      color: rgb(234, 250, 9);
+    }
+  }
+
+  &__className {
+    color: white;
+    max-width: 300px;
+    margin-top: 15px;
+  }
+
+  &__class {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+
+    :hover {
+      color: rgb(234, 250, 9);
+    }
+  }
+
+  &__name {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+
+    :hover {
+      color: rgb(234, 250, 9);
+    }
+  }
+
+  &__olain {
+    display: flex;
+    gap: 11px;
+    margin-top: 15px;
+  }
+
+  &__immer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    color: white;
+
+    :hover {
+      color: rgb(234, 250, 9);
+    }
+
+  }
+
+  &__footer-main {
+    color: #5d6d7d;
+    margin-top: 20px;
+  }
+
+  &__footer-smartphones {
+    color: #5d6d7d;
+    margin-top: 20px;
+  }
+
+  &__footer-service {
+    color: #5d6d7d;
+    margin-top: 20px;
+  }
+
+  &footer-of {
+    color: #5d6d7d;
+    margin-top: 20px;
+  }
+
+
+}

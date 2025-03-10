@@ -1,0 +1,108 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+
+  &__play {
+    width: 100px;
+    height: 100px;
+  }
+
+  &__play--logo {
+    width: 240px;
+    height: 55px;
+  }
+
+  &__data {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+
+  }
+
+  &__samsung-gap-one {
+    max-width: 300px;
+  }
+
+  &__samsung-gap-two {
+    max-width: 600px;
+  }
+
+  &__nokia-qr-kod {
+    max-width: 150px;
+  }
+
+  &__alishop {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &__alishop-uz {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  &__alishop-immer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+  &__alishop-allows {
+    max-width: 300px;
+  }
+
+  &__today {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+
+  &__today-smartphone {
+    max-width: 300px;
+  }
+
+  &__give {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  &__give-our {
+    max-width: 300px;
+  }
+
+  &__addition {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  &__addition-wide {
+    max-width: 300px;
+  }
+
+  &__alishop-immer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: #2a8be7;
+  }
+
+  &__top {
+    width: 100%;
+  }
+
+  &__bottom {
+    background-color: #24272c;
+  }
+}

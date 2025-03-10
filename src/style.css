@@ -1,0 +1,64 @@
+/* * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+
+.container {
+	display: flex;
+	gap: 25px;
+	max-width: 800px;
+	margin: auto;
+	align-items: center;
+	padding: 24px;
+} */
+
+/* Asosiy konteyner */
+.swiper-container {
+	display: flex;
+	gap: 10px;
+	max-width: 800px;
+	margin: auto;
+	align-items: center;
+}
+
+/* Chap tomondagi kichik prevyu rasmlar */
+.thumbs-container {
+	width: 20%;
+}
+
+.thumbs-swiper {
+	height: 400px;
+}
+
+.thumb-img {
+	width: 100%;
+	cursor: pointer;
+	border: 2px solid transparent;
+	transition: border 0.3s ease;
+}
+
+.thumb-img:hover {
+	border: 2px solid rgb(238, 168, 16);
+}
+
+/* O‘ng tomondagi asosiy slayder */
+.main-slider-container {
+	width: 80%;
+}
+
+.main-swiper {
+	border-radius: 10px;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-img {
+	width: 100%;
+	border-radius: 10px;
+}
